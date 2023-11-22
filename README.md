@@ -9,3 +9,7 @@ The principle of the loss is: the loss of the discriminator is BCE, real images 
 ### Dataset
 This implementation uses [cat_face](https://www.kaggle.com/datasets/spandan2/cats-faces-64x64-for-generative-models/code) dataset, in this dataset, the images are already in size 64x64 and centered at the faces, which improves the performance of the model.
 ### Results
+Since it is a zero-sum non-competitive game, finding an equilibrium between the discriminator and the generator is not an easy work. We could try to make the training of discrimintor more difficult by adding noises.
+
+![Capture d’écran 2023-11-22 à 03 54 09](https://github.com/nhs2828/GANs/assets/78078713/f944750d-0899-4bb3-9f96-0e955f641b19)</br>
+*Generated images after 30 epochs*
