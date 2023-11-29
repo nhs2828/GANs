@@ -13,3 +13,4 @@ Since it is a zero-sum non-competitive game, finding an equilibrium between the 
 
 ![Capture d’écran 2023-11-22 à 03 54 09](https://github.com/nhs2828/GANs/assets/78078713/f944750d-0899-4bb3-9f96-0e955f641b19)</br>
 *Generated images after 30 epochs*
+!TODO Control output's features (color of eyes, hairs, ect)
